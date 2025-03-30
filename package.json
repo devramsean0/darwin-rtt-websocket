@@ -1,0 +1,17 @@
+{
+  "name": "darwin-rtt-websocket",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "description": "A really crappy Websocket layer for the UK National Rail Darwin Real Time Trains API",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "kafkajs": "^2.2.4"
+  }
+}
